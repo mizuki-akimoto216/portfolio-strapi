@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_lists",
+  "info": {
+    "singularName": "work-list",
+    "pluralName": "work-lists",
+    "displayName": "workList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "workTitle": {
+      "type": "string"
+    },
+    "skills": {
+      "type": "string"
+    },
+    "workDescription": {
+      "type": "text"
+    },
+    "workThum": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
