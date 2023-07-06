@@ -4,7 +4,8 @@
   "info": {
     "singularName": "work-list",
     "pluralName": "work-lists",
-    "displayName": "workList"
+    "displayName": "workList",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -21,11 +22,20 @@
       "type": "text"
     },
     "workThum": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "webapp",
+        "uiux",
+        "webdesign"
+      ]
     }
   }
 }

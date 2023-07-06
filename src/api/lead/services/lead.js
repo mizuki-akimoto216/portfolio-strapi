@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * background service
+ * lead service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::background.background');
+module.exports = createCoreService('api::lead.lead');
